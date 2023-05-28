@@ -389,7 +389,12 @@ ul {
         overflow-x: auto;
         white-space: nowrap;
         display: flex;
-  flex-direction: column;
+        float: left;
+  /* flex-direction: column;
+  
+        overflow-x: auto;
+        scroll-behavior: smooth; */
+        width: 100%;
       }
       
       .card {
